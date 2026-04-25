@@ -15,7 +15,7 @@ function App() {
       <div id="todo-list-container">
         <Title iconBaseUrl={iconBaseUrl} currentTheme={theme} changeTheme={setTheme} />
         <TodoList iconBaseUrl={iconBaseUrl} isMobile={isMobile} />
-        {!isMobile && <p id="drag-instruction">Drag and drop to reorder list</p>}
+        {!isMobile && <p id="drag-instruction">Glisser-déposer pour réorganiser la liste</p>}
       </div>
       <Theme theme={theme} />
     </>
